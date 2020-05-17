@@ -1,0 +1,113 @@
+html, body{width : 100%; height : 100%;}
+body{
+	background-color : #0a1f44;
+	}
+*{box-sizing : border-box;}
+body,html{width : 98%;}
+.content{
+	width : 90%;
+	background-color : white;
+	display : block;
+	margin : auto;
+	text-align : center;
+	padding : 4px 10px;
+	color : #0a1f44;
+	margin-top : 30px;
+	border-radius : 7px;
+	box-shadow : 0 0 7px #ccc;
+	padding-bottom : 15px;
+	}
+h2{
+	font-family : head;
+	font-size : 200%;
+	}
+input{
+	display : block;
+	width : 80%;
+	margin : auto;
+	margin-top : 20px;
+	outline : none;
+	transition : 0.2s ease;
+	}
+input[type="text"]{
+	font-size : 120%;
+	padding :7px 5px;
+	border-radius : 10px;
+	border : 1px solid #0a1f44;
+	color : #0a1f44;
+	font-family : text;
+	transition : 0.8s ease;
+	}
+input[type='submit']{
+	font-size : 110%;
+	padding : 7px 0;
+	font-family : text;
+	color : white;
+	background-color : #0a1f44;
+	border : 1px solid #0a1f44;
+	border-radius : 10px;
+	}
+h3{font-family : text; font-size : 110%;}
+input[type='submit']:active{
+	opacity : 0.5;
+	}
+ul{
+	list-style : none;
+	padding-left : 0;
+	text-align : center;
+	width : 95%;
+	display : block;
+	margin : auto;
+	}
+.details{text-align : left; width : auto; display : block; margin : auto;}
+li{
+	margin-top : 20px;
+	padding : 8px 8px; 
+	line-height : 25px; 
+	font-family : sans-serif;
+	display : flex; flex-direction : column;
+	background-color : rgba(255,255,255,0.5);
+	color : white;
+	justify-content : space-between;
+	flex-wrap : wrap;
+	border-radius : 10px;
+	border : 0;
+	border-bottom : 3px solid #ccc;
+	transition : 0.5s;
+	}
+li:hover{border-bottom : 0;}
+span, a{font-weight : initial; font-family : monospace; font-size : 100%;}
+a{
+	color : green;
+	outline : none;
+	display : inline-block;
+	}
+img{
+	display : block;
+	margin : auto;
+	width : 130px;
+	height : 130px;
+	border-radius : 50%;
+	}
+a:hover{
+	color : red;
+	}
+a:visited{
+	color : red;
+	}
+@media (min-width : 700px){
+	input{
+		width : 60%;
+		}
+	}
+.find{
+	
+	}
+@font-face{
+	font-family : head;
+	src : url(bellota.ttf);
+	}
+@font-face{
+	font-family : text;
+	src : url(bellota.ttf);
+	}
